@@ -1,0 +1,40 @@
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 480px;
+}
+
+.contact__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 16px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.contact__item:last-child {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contact__label {
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+}
+
+.contact__value {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-accent);
+}
+
+.contact__value:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .contact__item {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
