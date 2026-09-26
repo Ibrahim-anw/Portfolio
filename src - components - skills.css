@@ -6,7 +6,7 @@
 
 .skills__category {
   font-size: 1rem;
-  color: var(--color-ink-soft);
+  color: #000000;              
   margin-bottom: 14px;
   font-weight: 500;
   font-family: var(--font-body);
@@ -19,12 +19,21 @@
 }
 
 .skills__tag {
-  background: var(--color-accent-soft);
-  color: var(--color-accent);
+  background: #000000;         
+  color: #fefefe;             
   padding: 8px 14px;
-  border-radius: var(--radius);
+  border-radius: 10px;
   font-size: 0.9rem;
   font-weight: 500;
+  transition: all 0.25s ease; 
+  cursor: default;  
+}
+
+.skills__tag:hover {              
+  background: #f8f8f8;
+  color: #000000;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(43, 58, 103, 0.25);
 }
 
 @media (max-width: 640px) {
