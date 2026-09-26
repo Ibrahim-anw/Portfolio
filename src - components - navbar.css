@@ -1,7 +1,7 @@
 .navbar {
   position: sticky;
   top: 0;
-  background: rgba(247, 247, 244, 0.9);
+  background: #c5ab9c;
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--color-border);
   z-index: 10;
@@ -29,11 +29,11 @@
 .navbar__links a {
   text-decoration: none;
   font-size: 0.95rem;
-  color: var(--color-ink-soft);
+  color: #000000;;
 }
 
 .navbar__links a:hover {
-  color: var(--color-accent);
+  color: #ffffff;
 }
 
 .navbar__toggle {
@@ -45,7 +45,7 @@
   color: var(--color-ink);
 }
 
-/* ---------- Mobile layout ---------- */
+
 @media (max-width: 640px) {
   .navbar__toggle {
     display: block;
